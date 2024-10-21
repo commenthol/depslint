@@ -24,7 +24,7 @@
     "commenthol <commenthol@gmail.com>"
   ],
   "type": "module",
-  "main": "src/index.cjs",
+  "main": "src/index.js",
   "types": "types",
   "bin": {
     "depslint": "./bin/depslint.js"
