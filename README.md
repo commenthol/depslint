@@ -58,7 +58,7 @@ MIT License
 [LICENSE]: ./LICENSE
 [npm-badge]: https://badgen.net/npm/v/depslint
 [npm]: https://www.npmjs.com/package/depslint
-[actions-badge]: https://github.com/commenthol/depslint/workflows/CI/badge.svg?branch=main&event=push
+[actions-badge]: https://github.com/commenthol/depslint/actions/workflows/ci.yml/badge.svg
 [actions]: https://github.com/commenthol/depslint/actions/workflows/ci.yml?query=branch%3Amain
 [types-badge]: https://badgen.net/npm/types/depslint
 [depcheck]: https://www.npmjs.com/package/depcheck
