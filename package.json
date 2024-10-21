@@ -1,0 +1,14 @@
+{
+  "name": "depslint",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "commenthol <commenthol@gmail.com>",
+  "type": "module",
+  "files": [],
+  "scripts": {
+    "test": "exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
