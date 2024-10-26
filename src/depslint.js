@@ -1,4 +1,5 @@
 import path from 'path'
+import { ignoreScriptCli } from './cli-tools.js'
 import {
   runChecks,
   missingDeps,
@@ -27,7 +28,7 @@ export const depslint = async (options) => {
 
   const checks = await runChecks({ dirname, packageJson, src, test })
   const missing = missingDeps(checks)
-  const unused = unusedDeps(checks, ignores)
+  const unused = ignoreScriptCli(packageJson, unusedDeps(checks, ignores))
 
   if (fix) {
     changePackageJson(packageJson, missing, unused)
