@@ -8,6 +8,7 @@
 
 A npm dependency linter built on [depcheck][].
 
+Fixes missing or unused packages in `package.json`.
 
 ## Installation
 
